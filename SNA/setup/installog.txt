@@ -1,0 +1,127 @@
+Requirement already satisfied: alembic==1.4.0 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 1)) (1.4.0)
+Requirement already satisfied: AnyQt==0.0.10 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 2)) (0.0.10)
+Requirement already satisfied: beautifulsoup4==4.4.1 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 3)) (4.4.1)
+Requirement already satisfied: cffi==1.14.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 4)) (1.14.0)
+Requirement already satisfied: chardet==2.3.0 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 5)) (2.3.0)
+Requirement already satisfied: Click==7.0 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 6)) (7.0)
+Requirement already satisfied: command-not-found==0.3 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 7)) (0.3)
+Requirement already satisfied: confapp==1.1.11 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 8)) (1.1.11)
+Requirement already satisfied: cryptography==2.8 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 9)) (2.8)
+Requirement already satisfied: cycler==0.10.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 10)) (0.10.0)
+Requirement already satisfied: decorator==4.0.6 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 11)) (4.0.6)
+Requirement already satisfied: defer==1.0.6 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 12)) (1.0.6)
+Requirement already satisfied: defusedxml==0.6.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 13)) (0.6.0)
+Requirement already satisfied: dill==0.3.1.1 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 14)) (0.3.1.1)
+Requirement already satisfied: Django==2.2.9 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 15)) (2.2.9)
+Requirement already satisfied: django-allauth==0.41.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 16)) (0.41.0)
+Requirement already satisfied: django-jfu-pyforms==2.0.9.1 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 17)) (2.0.9.1)
+Requirement already satisfied: et-xmlfile==1.0.1 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 18)) (1.0.1)
+Requirement already satisfied: filelock==3.0.12 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 19)) (3.0.12)
+Requirement already satisfied: Flask==1.1.1 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 20)) (1.1.1)
+Requirement already satisfied: Flask-Login==0.5.0 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 21)) (0.5.0)
+Requirement already satisfied: Flask-Migrate==2.5.2 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 22)) (2.5.2)
+Requirement already satisfied: Flask-SQLAlchemy==2.4.1 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 23)) (2.4.1)
+Requirement already satisfied: Flask-WTF==0.14.3 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 24)) (0.14.3)
+Requirement already satisfied: html5lib==0.999 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 25)) (0.999)
+Requirement already satisfied: idna==2.8 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 26)) (2.8)
+Requirement already satisfied: ipython==2.4.1 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 27)) (2.4.1)
+Requirement already satisfied: itsdangerous==1.1.0 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 28)) (1.1.0)
+Requirement already satisfied: jdcal==1.4.1 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 29)) (1.4.1)
+Requirement already satisfied: Jinja2==2.11.1 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 30)) (2.11.1)
+Requirement already satisfied: kiwisolver==1.1.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 31)) (1.1.0)
+Requirement already satisfied: language-selector==0.1 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 32)) (0.1)
+Requirement already satisfied: lxml==3.5.0 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 33)) (3.5.0)
+Requirement already satisfied: Mako==1.1.1 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 34)) (1.1.1)
+Requirement already satisfied: MarkupSafe==1.1.1 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 35)) (1.1.1)
+Requirement already satisfied: matplotlib==3.0.3 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 36)) (3.0.3)
+Requirement already satisfied: migrate==0.3.8 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 37)) (0.3.8)
+Requirement already satisfied: natsort==7.0.1 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 38)) (7.0.1)
+Requirement already satisfied: netifaces==0.10.9 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 39)) (0.10.9)
+Requirement already satisfied: numpy==1.18.1 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 40)) (1.18.1)
+Requirement already satisfied: oauthlib==3.1.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 41)) (3.1.0)
+Requirement already satisfied: opencv-python==3.4.5.20 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 42)) (3.4.5.20)
+Requirement already satisfied: openpyxl==2.6.4 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 43)) (2.6.4)
+Requirement already satisfied: Orquestra==1.4 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 44)) (1.4)
+Requirement already satisfied: Pillow==7.0.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 45)) (7.0.0)
+Requirement already satisfied: prompt-toolkit==1.0.14 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 46)) (1.0.14)
+Requirement already satisfied: PTable==0.9.2 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 47)) (0.9.2)
+Requirement already satisfied: pycparser==2.20 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 48)) (2.20)
+Requirement already satisfied: pycups==1.9.73 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 49)) (1.9.73)
+Requirement already satisfied: pycurl==7.43.0 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 50)) (7.43.0)
+Requirement already satisfied: PyForms==4.0.3 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 51)) (4.0.3)
+Requirement already satisfied: PyForms-GUI==4.904.152 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 52)) (4.904.152)
+Requirement already satisfied: PyForms-Terminal==4.0.10 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 53)) (4.0.10)
+Requirement already satisfied: PyForms-Web==4.2.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 54)) (4.2.0)
+Requirement already satisfied: Pygments==2.5.2 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 55)) (2.5.2)
+Requirement already satisfied: pygobject==3.20.0 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 56)) (3.20.0)
+Requirement already satisfied: PyOpenGL==3.1.5 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 57)) (3.1.5)
+Requirement already satisfied: pyparsing==2.4.6 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 58)) (2.4.6)
+Requirement already satisfied: PyQt5==5.14.1 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 59)) (5.14.1)
+Requirement already satisfied: PyQt5-sip==12.7.1 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 60)) (12.7.1)
+Requirement already satisfied: PyQtWebEngine==5.14.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 61)) (5.14.0)
+Requirement already satisfied: python-apt==1.1.0b1 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 62)) (1.1.0b1)
+Requirement already satisfied: python-dateutil==2.8.1 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 63)) (2.8.1)
+Requirement already satisfied: python-debian==0.1.27 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 64)) (0.1.27)
+Requirement already satisfied: python-editor==1.0.4 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 65)) (1.0.4)
+Requirement already satisfied: python-systemd==231 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 66)) (231)
+Requirement already satisfied: python3-openid==3.1.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 67)) (3.1.0)
+Requirement already satisfied: pytz==2019.3 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 68)) (2019.3)
+Requirement already satisfied: PyX==0.15 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 69)) (0.15)
+Requirement already satisfied: pyxdg==0.25 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 70)) (0.25)
+Requirement already satisfied: QScintilla==2.11.4 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 71)) (2.11.4)
+Requirement already satisfied: requests==2.9.1 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 72)) (2.9.1)
+Requirement already satisfied: requests-oauthlib==1.3.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 73)) (1.3.0)
+Requirement already satisfied: scapy==2.4.3 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 74)) (2.4.3)
+Requirement already satisfied: simplegeneric==0.8.1 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 75)) (0.8.1)
+Requirement already satisfied: simplejson==3.17.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 76)) (3.17.0)
+Requirement already satisfied: six==1.10.0 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 77)) (1.10.0)
+Requirement already satisfied: SQLAlchemy==1.3.13 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 78)) (1.3.13)
+Requirement already satisfied: sqlparse==0.3.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 79)) (0.3.0)
+Requirement already satisfied: ssh-import-id==5.5 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 80)) (5.5)
+Requirement already satisfied: system-service==0.3 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 81)) (0.3)
+Requirement already satisfied: termcolor==1.1.0 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 82)) (1.1.0)
+Requirement already satisfied: ufw==0.35 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 83)) (0.35)
+Requirement already satisfied: unattended-upgrades==0.1 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 84)) (0.1)
+Requirement already satisfied: urllib3==1.13.1 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 85)) (1.13.1)
+Requirement already satisfied: visvis==1.12.2 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 86)) (1.12.2)
+Requirement already satisfied: wcwidth==0.1.8 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 87)) (0.1.8)
+Requirement already satisfied: Werkzeug==1.0.0 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 88)) (1.0.0)
+Requirement already satisfied: WTForms==2.2.1 in /home/user/.local/lib/python3.5/site-packages (from -r requirements.txt (line 89)) (2.2.1)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.5/dist-packages (from kiwisolver==1.1.0->-r requirements.txt (line 31)) (45.1.0)
+Collecting netifaces==0.10.9
+  Downloading netifaces-0.10.9.tar.gz (28 kB)
+Collecting PTable==0.9.2
+  Downloading PTable-0.9.2.tar.gz (31 kB)
+Collecting scapy==2.4.3
+  Downloading scapy-2.4.3.tar.gz (905 kB)
+Collecting termcolor==1.1.0
+  Downloading termcolor-1.1.0.tar.gz (3.9 kB)
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.7/dist-packages (from -r requirements.txt (line 5)) (3.2.1)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /usr/local/lib/python3.7/dist-packages (from matplotlib->-r requirements.txt (line 5)) (2.4.6)
+Requirement already satisfied: python-dateutil>=2.1 in /usr/local/lib/python3.7/dist-packages (from matplotlib->-r requirements.txt (line 5)) (2.8.1)
+Requirement already satisfied: numpy>=1.11 in /usr/local/lib/python3.7/dist-packages (from matplotlib->-r requirements.txt (line 5)) (1.18.2)
+Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.7/dist-packages (from matplotlib->-r requirements.txt (line 5)) (1.1.0)
+Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.7/dist-packages (from matplotlib->-r requirements.txt (line 5)) (0.10.0)
+Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.1->matplotlib->-r requirements.txt (line 5)) (1.10.0)
+Requirement already satisfied: setuptools in /home/user/.local/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib->-r requirements.txt (line 5)) (46.0.0)
+Building wheels for collected packages: netifaces, PTable, scapy, termcolor
+  Building wheel for netifaces (setup.py): started
+  Building wheel for netifaces (setup.py): finished with status 'error'
+  Running setup.py clean for netifaces
+  Building wheel for PTable (setup.py): started
+  Building wheel for PTable (setup.py): finished with status 'done'
+  Created wheel for PTable: filename=PTable-0.9.2-py3-none-any.whl size=22907 sha256=efe28c78e87c62976ad0cf5fd800b156700121dce2d6f11dda68b35b3b1c4d20
+  Stored in directory: /tmp/pip-ephem-wheel-cache-ipsfo94l/wheels/33/df/2f/674985b3f8a2de3f96357d1eadef5110f74fa91b3785e52a54
+  Building wheel for scapy (setup.py): started
+  Building wheel for scapy (setup.py): finished with status 'done'
+  Created wheel for scapy: filename=scapy-2.4.3-py2.py3-none-any.whl size=1043873 sha256=cf744748b3dc7531f5337acf95dea165ea7c6344c2a9427389d6d75be327972b
+  Stored in directory: /tmp/pip-ephem-wheel-cache-ipsfo94l/wheels/e5/1a/9c/104a07b68941e9f097188a0ebee0130103d0a957a297fca719
+  Building wheel for termcolor (setup.py): started
+  Building wheel for termcolor (setup.py): finished with status 'done'
+  Created wheel for termcolor: filename=termcolor-1.1.0-py3-none-any.whl size=4830 sha256=a5d840f8d0f82a95a7f1734dbd57a8e3237958ed4ce42e75b419ed59d38bd0b3
+  Stored in directory: /tmp/pip-ephem-wheel-cache-ipsfo94l/wheels/3f/e3/ec/8a8336ff196023622fbcb36de0c5a5c218cbb24111d1d4c7f2
+Successfully built PTable scapy termcolor
+Failed to build netifaces
+Installing collected packages: netifaces, PTable, scapy, termcolor
+    Running setup.py install for netifaces: started
+    Running setup.py install for netifaces: finished with status 'error'

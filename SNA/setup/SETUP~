@@ -1,0 +1,34 @@
+#!/bin/bash
+
+if [ "$EUID" -ne 0 ]
+then
+    echo "[*]Error: Please run as root"
+    exit
+fi
+
+echo "Note: you should run sudo apt update before running this script."
+
+if ! [ -x "$(command -v python3)" ]
+then
+    echo "[*]Error: python3 is not installed." >&2
+    echo "Installing Python 3..."
+    apt-get install python3 >> installog.txt
+    echo "Python3 was installed!"
+else
+    echo "Python3 is installed!"
+fi
+
+if ! [ -x "$(command -v pip3)" ]
+then
+    echo "[*]Error: pip3 is not installed." >&2
+    echo "Installing pip3..."
+    apt install python3-pip >> installog.txt
+    echo "Pip3 was installed!"
+else
+    echo "Pip3 is installed!"
+fi
+
+echo "Installing required python 3 modules..."
+pip3 freeze > requirements.txt
+pip3 install -r requirements.txt >> installog.txt
+echo "All good to go! ^o^_@"
